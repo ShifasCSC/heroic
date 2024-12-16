@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(8, 8, 9);
+    color: white;
+    padding:10px 30px;
+    align-items: center;
+}
+.right{
+    display: flex;
+}
+.list{
+    font-size: 20PX;
+    margin-right: 90px;
+    list-style: none;
+    display: flex;
+    
+}
+.list>li{
+    margin-left: 40px;
+    text-decoration:none;
+}
+#sear{
+    border: 2px solid black;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(249, 247, 247);
+}
+/* nav end */
+
+.myproduct{
+display: flex;
+/* justify-content:space-evenly; */
+margin:50px 50px;
+background-color: antiquewhite;
+align-items: center;
+
+}
+.products>img{
+    height: 100%;
+    width: 100%;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    
+}
+.image{
+    border: 1px black solid;
+    
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+}
+.image:hover{
+    background-color: aquamarine;
+    color: #ff9f00;
+}
+.my image>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* margin-left: 50px; */
+}
+.myimage{
+    height: 300px;
+    width: 300px;
+}
+
+
+
+/* ------------------------------ */
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 500px; */
+    margin-top: 10px;
+    text-decoration: none;
+    margin-left: 40px;
+    background-color: antiquewhite;
+}
+/* .details>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} */
+.sub{
+    width: 440px;
+    margin: 70px;
+}
+
+.details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.rating{
+    color: green;
+}
+
+.price {
+    margin: 20px 0px;
+    text-decoration: none;
+}
+
+.price{
+    font-size: 24px;
+}
+
+.original-price{
+    text-decoration: line-through black;
+    color: rgb(244, 7, 7);
+}
+
+.discount1{
+    color: rgb(106, 124, 4);
+}
+
+.offers {
+    margin: 5px 0px;
+}
+
+.offers h2 {
+    margin-bottom: 5px 20px;
+}
+
+.offer{
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+#ba{
+    list-style: none;
+    display: flex;
+    justify-content: safe;
+}
+
+#bt{
+    background-color: #ff9f00;
+    color: white;
+    border: none;
+    padding: 2px 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer; 
+    list-style: none; 
+}

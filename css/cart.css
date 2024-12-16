@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* nav starts */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(8, 8, 9);
+    color: white;
+    padding:10px 30px;
+    align-items: center;
+}
+.right{
+    display: flex;
+}
+.list{
+    margin-right: 50px;
+    list-style: none;
+    display: flex;
+    
+}
+.list>li{
+    margin-left: 40px;
+    text-decoration:none;
+}
+#sear{
+    border: 2px solid black;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(249, 247, 247);
+}
+/* nav end */

@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* nav starts */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(8, 8, 9);
+    color: white;
+    padding:10px 30px;
+    align-items: center;
+}
+.right{
+    display: flex;
+}
+.list{
+    margin-right: 50px;
+    list-style: none;
+    display: flex;
+    
+}
+.list>li{
+    margin-left: 40px;
+    text-decoration:none;
+}
+#sear{
+    border: 2px solid black;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(249, 247, 247);
+}
+/* nav end */
+
+.cards{
+  display: flex;
+  justify-content: space-evenly; 
+  flex-wrap: wrap;
+  margin-top: 120px;
+
+
+  align-items: center;
+  
+  
+}
+.card{
+    height: 250px;
+    width: 200px;
+    text-align: center;
+    border:none;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 1px;
+    background-color: rgb(52, 51, 51);
+    color: white;
+}
+.rating{
+    padding: 1.7px 5px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+ /* .card:hover{
+    scale: 1;
+    transform: translateY(-20px);
+    background-color: rgb(235, 233, 233);  
+}  */
+.card>img{
+    margin-top: 10px;
+    border: 0.5px black solid;
+    background-color:gray;
+    border-radius: 10px;
+    /* height: 60%; */
+    width: 70%;
+}
+.offer{
+    color: green;
+}
+.discount{
+    text-decoration:line-through gray;
+    color:rgb(255, 6, 6);
+
+    
+}
+
